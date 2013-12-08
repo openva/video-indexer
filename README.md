@@ -6,9 +6,11 @@ This is a proof-of-concept for extracting chyrons from video, OCRing them, auto-
 
 ## Programs Required
 
-* [MPlayer](http://www.mplayerhq.hu/)
-* [ImageMagick](http://www.imagemagick.org/)
-* [Tesseract](https://code.google.com/p/tesseract-ocr/)
+* [MPlayer](http://www.mplayerhq.hu/) (1.0-0.48)
+* [ImageMagick](http://www.imagemagick.org/) (tested on v6.2.8)
+* [Tesseract](https://code.google.com/p/tesseract-ocr/) (tested on v3.02.02)
+
+The functionality employed here is fundamental to all three programs, and is unlikely to be affected by the versions that are used.
 
 ## The Process
 
