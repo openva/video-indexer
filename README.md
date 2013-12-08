@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a proof-of-concept for extracting chyrons from video, OCRing them, auto-correcting those strings against a known corpus of data, and storing them in a database. This process has been in use on [Richmond Sunlight](http://www.richmondsunlight.com/) for some years now. See `process-video.sh` for the shell script that does the heavy lifting, and `resolve-chyrons.php` for the PHP that takes the OCRed chyrons, corrects them, and inserts them into the database. (For simplicity's sake, `resolve-chyrons.php` includes only the code to correct and store bill numbers, and not the code to do the same for legislators' names.)
+This is a proof-of-concept for extracting chyrons from video ([here's an example video with chyrons](https://archive.org/details/senate20130121)), OCRing them, auto-correcting those strings against a known corpus of data, and storing them in a database. This process has been in use on [Richmond Sunlight](http://www.richmondsunlight.com/) for some years now. See `process-video.sh` for the shell script that does the heavy lifting, and `resolve-chyrons.php` for the PHP that takes the OCRed chyrons, corrects them, and inserts them into the database. (For simplicity's sake, `resolve-chyrons.php` includes only the code to correct and store bill numbers, and not the code to do the same for legislators' names.)
 
 ## Programs Required
 
