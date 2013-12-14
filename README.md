@@ -6,7 +6,7 @@ This is a proof-of-concept for extracting chyrons from video ([here's an example
 
 ## Programs Required
 
-* [MPlayer](http://www.mplayerhq.hu/) (1.0-0.48)
+* [MPlayer](http://www.mplayerhq.hu/) (tested on v1.0-0.48)
 * [ImageMagick](http://www.imagemagick.org/) (tested on v6.2.8)
 * [Tesseract](https://code.google.com/p/tesseract-ocr/) (tested on v3.02.02)
 
